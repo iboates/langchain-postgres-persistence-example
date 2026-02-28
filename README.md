@@ -7,25 +7,11 @@ This example demonstrates:
 - Resuming in a separate Python process
 - Passing structured resume data (`approved`, optional `feedback`)
 
----
-
 # Requirements
 
 - Docker + Docker Compose
 - Python 3.10+
 - `uv` installed
-
----
-
-# Project Structure
-
-.
-├── docker-compose.yml  
-├── start.py  
-├── resume.py  
-├── pyproject.toml  
-
----
 
 # 1. Start Postgres
 
